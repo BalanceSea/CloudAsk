@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="github.balncesea.cloudAsk.util.AnswerNormalizerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T11:39:20.227Z" hostname="WIN-7T93UF3F293" time="0.002">
+<testsuite name="github.balncesea.cloudAsk.util.AnswerNormalizerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T12:28:28.534Z" hostname="WIN-7T93UF3F293" time="0.002">
   <properties/>
-  <testcase name="canKeepCaseAndWhitespace()" classname="github.balncesea.cloudAsk.util.AnswerNormalizerTest" time="0.0"/>
-  <testcase name="normalizesCaseSpacesAndTrim()" classname="github.balncesea.cloudAsk.util.AnswerNormalizerTest" time="0.0"/>
+  <testcase name="canKeepCaseAndWhitespace()" classname="github.balncesea.cloudAsk.util.AnswerNormalizerTest" time="0.001"/>
+  <testcase name="normalizesCaseSpacesAndTrim()" classname="github.balncesea.cloudAsk.util.AnswerNormalizerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

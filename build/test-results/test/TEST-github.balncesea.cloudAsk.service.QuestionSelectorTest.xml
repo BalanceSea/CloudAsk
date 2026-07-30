@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="github.balncesea.cloudAsk.service.QuestionSelectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T11:39:20.213Z" hostname="WIN-7T93UF3F293" time="0.014">
+<testsuite name="github.balncesea.cloudAsk.service.QuestionSelectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T12:28:28.518Z" hostname="WIN-7T93UF3F293" time="0.015">
   <properties/>
-  <testcase name="sequentialSelectionLoopsInConfigurationOrder()" classname="github.balncesea.cloudAsk.service.QuestionSelectorTest" time="0.011"/>
+  <testcase name="sequentialSelectionLoopsInConfigurationOrder()" classname="github.balncesea.cloudAsk.service.QuestionSelectorTest" time="0.013"/>
   <testcase name="randomSelectionAvoidsImmediateRepetition()" classname="github.balncesea.cloudAsk.service.QuestionSelectorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

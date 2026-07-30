@@ -5,6 +5,12 @@ api-version: '1.20'
 author: MoutainSeaL
 description: 支持 Redis 群组服同步的聊天问答插件
 
+# 由 Spigot/Paper LibraryLoader 在插件加载前从 Maven Central 下载。
+libraries:
+  - redis.clients:jedis:5.2.0
+  - com.google.code.gson:gson:2.11.0
+  - com.cronutils:cron-utils:9.2.1
+
 commands:
   cloudask:
     description: CloudAsk 管理命令

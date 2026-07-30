@@ -2,6 +2,8 @@
 
 CloudAsk 是一个 Spigot/Paper 1.20.1 聊天问答插件。玩家可以直接在聊天栏输入答案，答对者在其所在子服执行奖励命令。
 
+插件通过 Spigot/Paper LibraryLoader 加载 Jedis、Gson 和 cron-utils，依赖不会打包进插件 JAR。服务器首次加载插件时需要能够访问 Maven Central。
+
 ## 使用
 
 ```text
@@ -52,7 +54,7 @@ questions:
 1. 将 `config.yml` 的 `mode` 改为 `redis`。
 2. 所有子服填写相同的 `redis.host`、端口、认证信息、数据库和 `redis.namespace`。
 3. 为每个子服设置不同的 `server-id`，例如 `lobby`、`survival`；不要让多个子服使用同一个标识。
-4. 将构建出的 `build/libs/CloudAsk-1.0-SNAPSHOT.jar` 放入每个子服的 `plugins` 目录，并重启服务器。
+4. 将构建出的 `build/libs/CloudAsk-1.0-SNAPSHOT.jar` 放入每个子服的 `plugins` 目录，并在可访问 Maven Central 的网络环境中重启服务器。
 
 Redis 用 Lua 脚本原子判定胜者，同一问题不会在多个子服重复发奖。Redis 不可用时，群组模式会提示错误并拒绝发布或判定答案，不会静默切换成本地模式。
 

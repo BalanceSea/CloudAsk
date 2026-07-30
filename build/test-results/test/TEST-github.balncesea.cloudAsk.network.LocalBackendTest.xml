@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="github.balncesea.cloudAsk.network.LocalBackendTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T11:39:20.170Z" hostname="WIN-7T93UF3F293" time="0.01">
+<testsuite name="github.balncesea.cloudAsk.network.LocalBackendTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T12:28:28.467Z" hostname="WIN-7T93UF3F293" time="0.011">
   <properties/>
-  <testcase name="concurrentCorrectAnswersProduceOneWinner()" classname="github.balncesea.cloudAsk.network.LocalBackendTest" time="0.008"/>
+  <testcase name="concurrentCorrectAnswersProduceOneWinner()" classname="github.balncesea.cloudAsk.network.LocalBackendTest" time="0.01"/>
   <testcase name="rejectsSecondQuestionWhileOneIsActive()" classname="github.balncesea.cloudAsk.network.LocalBackendTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
