@@ -1,0 +1,23 @@
+name: CloudAsk
+version: '${version}'
+main: github.balncesea.cloudAsk.CloudAsk
+api-version: '1.20'
+author: MoutainSeaL
+description: 支持 Redis 群组服同步的聊天问答插件
+
+commands:
+  cloudask:
+    description: CloudAsk 管理命令
+    usage: /cloudask help
+    aliases: [cask]
+
+permissions:
+  cloudask.answer:
+    description: 允许在聊天中参与回答
+    default: true
+  cloudask.ask:
+    description: 允许发布问题
+    default: op
+  cloudask.admin:
+    description: 允许停止问题和重载配置
+    default: op
