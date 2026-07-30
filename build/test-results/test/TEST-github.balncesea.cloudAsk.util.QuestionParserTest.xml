@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="github.balncesea.cloudAsk.util.QuestionParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-30T12:28:28.537Z" hostname="WIN-7T93UF3F293" time="0.003">
-  <properties/>
-  <testcase name="parsesSimpleQuestion()" classname="github.balncesea.cloudAsk.util.QuestionParserTest" time="0.002"/>
-  <testcase name="parsesMultiWordAnswerWithSeparator()" classname="github.balncesea.cloudAsk.util.QuestionParserTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
